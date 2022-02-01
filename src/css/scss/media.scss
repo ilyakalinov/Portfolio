@@ -1,3 +1,17 @@
+@media screen and (max-width:1450px){ 
+    .photo__box {
+        img{
+            left: -130px;
+        }
+    }
+}
+@media screen and (max-width:1300px){ 
+    .photo__box {
+        img{
+            left: -250px;
+        }
+    }
+}
 @media screen and (max-width:1100px){ 
     .skills__items {
         flex-wrap: wrap;
@@ -7,6 +21,13 @@
     }
     .container{
         width: 90%;
+    }
+}
+@media screen and (max-width:900px){ 
+    .photo__box {
+        img{
+            left: -320px;
+        }
     }
 }
 @media screen and (max-width:800px){ 
@@ -30,5 +51,10 @@
 @media screen and (max-width:700px){ 
     .header {
         font: 14px Gilroy,sans-serif;
+    }
+    .photo__box {
+        img{
+            left: -400px;
+        }
     }
 }
