@@ -115,8 +115,9 @@ body {
     margin: 0 auto; 
     width: 80%;
     text-align: left;
+    word-wrap: break-word;
     .text {
-        font: 16px 'Gilroy-Medium', sans-serif;
+        font: 18px 'Gilroy-Medium', sans-serif;
         margin-top: 10px;
         span {
             font-weight: 800;
@@ -156,10 +157,10 @@ body {
         transition: 0.7s;
     }
     .skills__item:nth-child(even) {
-        transform: translateX(750px);
+        transform: translateX(1200px);
     }
     .skills__item:nth-child(odd) {
-        transform: translateX(-750px);
+        transform: translateX(-1200px);
     }
     display: flex;
     justify-content: space-around;
@@ -256,10 +257,10 @@ body {
   }
 .about__text .text:nth-child(even) {
     transition: 0.7s;
-    transform: translateX(750px)
+    transform: translateX(1200px)
 }
   .about__text .text:nth-child(odd) {
     transition: 0.7s;
-    transform: translateX(-750px)
+    transform: translateX(-1200px)
   }
   
