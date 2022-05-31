@@ -140,7 +140,7 @@ body {
 .skills__items {
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  flex-wrap: wrap;
   margin: 0 auto;
   text-align: center; }
   .skills__items .skills__item {
@@ -151,7 +151,7 @@ body {
     transform: translateX(-1200px); }
   .skills__items img {
     height: 100px;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
   .skills__items span {
     font: 16px Gilroy,sans-serif;
     margin-bottom: 10px; }
