@@ -23,6 +23,19 @@
         width: 90%;
     }
 }
+@media screen and (max-width:1024px){ 
+    .about__text{
+        opacity: 1;
+    }
+    .about__text .text:nth-child(even) {
+        transition: 0.7s;
+        transform: translateX(0px)
+    }
+    .about__text .text:nth-child(odd) {
+    transition: 0.7s;
+    transform: translateX(0px)
+    }
+}
 @media screen and (max-width:900px){ 
     .photo__box {
         img{
@@ -56,5 +69,13 @@
         img{
             left: -400px;
         }
+    }
+}
+@media screen and (max-width:440px){ 
+    .photo__box img {
+        left: -460px;
+    }
+    .contacts__mes img {
+        width: 40px;
     }
 }
